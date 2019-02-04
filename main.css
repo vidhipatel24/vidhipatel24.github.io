@@ -1,0 +1,161 @@
+
+        body, html{
+                        box-sizing: border-box;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        width: 100%;
+                        height: 100%;
+        }
+
+        .responsive-img{
+                        height: auto;
+                        max-width: 100%;
+        }
+        /* Header */
+        .header{
+                        margin-bottom: 30px;
+        }
+
+        .header-logo{
+                        width: 100%;
+                        height: auto;
+                
+        }
+
+        .header-img{
+                        height: auto;
+                        width: auto;
+        }
+
+        .header-info{
+                        text-align: right;
+                        height: auto;
+        }
+
+        .header-name {
+	                width: 100%;
+	                color: #003459;
+	                font-family: 'Dancing Script', cursive;
+	                font-size: 2.5em;
+	                font-weight: 300;
+	                margin-bottom: 0;
+	                text-align: center;
+        }
+
+        .header-title {
+	                color: #003459;
+	                font-family: 'Roboto', sans-serif;
+	                font-size: 1.2em;
+	                margin-bottom: 0;
+	                text-align: center;
+                        width: 100%;
+        }
+        
+        .hero{
+                        width: 100%;
+                        height: auto;
+        }
+
+        .content-header,.feature-items{
+                        text-align: center;
+        }
+
+        .feature{
+                        margin-top: 20px;
+
+        }
+
+        .feature-heading{
+                        color: #003459;
+	                font-family: 'Roboto', sans-serif;
+	                font-size: 1.2em;
+	                margin-bottom: 0;
+	                text-align: center;
+                        width: 100%;
+        }
+
+        .feature-items{
+                        margin: 20px 0;
+        }
+
+        .social-media{
+                        text-align: center;
+                        width: 100%;
+	                color: #003459;
+	                font-family: 'Dancing Script', cursive;
+	                font-size: 1.5em;
+        }
+
+        @media screen and (min-width:480px){
+                .txt-hdr{
+                        font-size: 6vw;
+                }
+
+                .txt-title{
+                        font-size: 4vw;
+                }
+
+                .txt-des{
+                        font-size: 3vw;
+                }
+                
+                .feature-img{
+                        width: 100%;
+                }
+        }
+
+        @media screen and (min-width:720px){
+
+                .header{
+                        justify-content: space-between;
+                        margin : 0 auto 30px;
+                        text-align: left
+                }
+
+                .header-info{
+                        text-align: right;
+                }
+
+                .feature{
+                        margin: 30px auto 0;
+                }
+                .header, .feature-work{
+                        display: flex;
+                        max-width: 1440px;
+                        margin: 0 auto;
+                }
+
+                .feature-items{
+                        margin: 20px 20px 20px 0;
+                }
+
+                .feature-items:last-child{
+                        margin-right: 0;
+                }
+
+        }
+
+        @media screen and (min-width:830px){
+                .txt-hdr{
+                        font-size: 4vw;
+                }
+
+                .txt-title{
+                        font-size: 2vw;
+                }
+
+                .txt-des{
+                        font-size: 2vw;
+                }
+        }
+
+        @media screen and (min-width:1230px){
+                .txt-hdr{
+                        font-size: 3vw;
+                }
+
+                .txt-title{
+                        font-size: 1vw;
+                }
+        }
